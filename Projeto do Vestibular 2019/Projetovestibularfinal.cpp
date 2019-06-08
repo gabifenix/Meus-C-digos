@@ -144,27 +144,41 @@ typedef struct {
      	destruir(lista_de_candidados);
      	
      	string line;
-  	 	ifstream myfile ("cadastro.txt");
-       	if (myfile.is_open())
+  	 	ifstream inscricoes ("inscricoes.txt");
+  	 	ifstream candidatos ("candidatos.txt");
+  	 	ifstream aprovados ("aprovados.txt");
+  	 	
+  	 	cout << "\nInscrições \n\n";
+  	 	
+       	if (inscricoes.is_open())
   		{
-    		while ( getline (myfile,line) )
+    		while ( getline (inscricoes,line) )
     	{
      	 cout << line << '\n';
     	}
-   		 myfile.close();
+   		 inscricoes.close();
 		}
-
-  		else cout << "Unable to open file";
-  		
-  		string aprovados;
-  	 	ifstream alunos_aprovados ("aprovados.txt");
-       	if (alunos_aprovados.is_open())
+		
+		cout << "\nCandidatos \n\n";
+		
+		if (candidatos.is_open())
   		{
-    		while ( getline (myfile,aprovados) )
+    		while ( getline (candidatos,line) )
     	{
      	 cout << line << '\n';
     	}
-   		 alunos_aprovados.close();
+   		 candidatos.close();
+		}
+		
+		cout << "\nAprovados \n\n";
+		
+		if (aprovados.is_open())
+  		{
+    		while ( getline (aprovados,line) )
+    	{
+     	 cout << line << '\n';
+    	}
+   		 aprovados.close();
 		}
 
   		else cout << "Unable to open file";

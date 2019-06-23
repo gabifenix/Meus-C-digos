@@ -1,5 +1,43 @@
-Gabriel
-Carlos
-Rafael
-Amanda
-Oswaldo
+Nome: Gabriel
+CPF: 545464656435
+Curso: Sistemas para Internet
+
+Nome: Amanda
+CPF: 485688684488
+Curso: Sistemas para Internet
+
+Nome: Paulo
+CPF: 258851864684
+Curso: Sistemas para Internet
+
+Nome: Oswaldo
+CPF: 455644646346
+Curso: Gestão Empresarial
+
+Nome: Osmar
+CPF: 345488948864
+Curso: Sistemas para Internet
+
+Nome: Carla
+CPF: 845668465654
+Curso: Sistemas para Internet
+
+Nome: Bia
+CPF: 746864768476
+Curso: Gestão Empresarial
+
+Nome: Tiago
+CPF: 545464646866
+Curso: Sistemas para Internet
+
+Nome: Gil
+CPF: 248649464688
+Curso: Sistemas para Internet
+
+Nome: Raul
+CPF: 574665864655
+Curso: Sistemas para Internet
+
+Nome: Yasmin
+CPF: 654897898797
+Curso: Sistemas para Internet

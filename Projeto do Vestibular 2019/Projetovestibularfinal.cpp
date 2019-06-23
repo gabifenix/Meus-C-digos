@@ -19,6 +19,7 @@ typedef struct {
     string nome;
     int idade;
     int curso;
+    int cpf;
 }ELEMENTO;
 
  typedef struct NO{
@@ -41,6 +42,8 @@ typedef struct {
      cin >> novo_candidato.nome;
      cout << "Digite a idade do vestibulando " << endl;
      cin >> novo_candidato.idade;
+     cout << "Digite o CPF do vestibulando " << endl;
+     cin >> novo_candidato.cpf;
      LISTA aux = new NO;
   	 aux->aluno = novo_candidato;
   	 aux->proximo  = lista_de_candidados;
@@ -100,6 +103,7 @@ typedef struct {
 
  int main(){
  	 setlocale(LC_ALL, "Portuguese");
+ 	 system("color A");
      LISTA lista_de_candidados;
      char escolha = 'x';
      ELEMENTO candidado;

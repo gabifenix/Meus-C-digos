@@ -122,10 +122,18 @@ typedef struct {
                cout << "Escolha o curso desejado \n";
                cin >> escolha;
                if(escolha == '1'){
-               	cout << "Sistemas para Internet";
+               	cout << "Sistemas para Internet \n";
 			   }
 			   if(escolha == '2'){
-			   	cout << "Gestão Empresarial";
+			   	cout << "Gestão Empresarial \n";
+			   }
+			   cout << "A inscrição já foi paga? \n";
+			   cin >> escolha;
+			   if(escolha == 's' || escolha == 'S'){
+			   cout << "Inscrição realizada com sucesso!!!";
+			   }
+			   if(escolha == 'n' || escolha == 'N'){
+			   	cout << "Seu pagamento da inscrição do vestibular ainda está pendente.";
 			   }
            }
            if(escolha == 'a' || escolha == 'A'){
